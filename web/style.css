@@ -1,0 +1,388 @@
+*{padding:0; margin:0;}
+body{font-family: 'Pontano Sans', sans-serif; font-size:14px; color:black; background:#ffffff;}
+img{border:none;}
+h1{ font-size:25px; color:#243036; font-family: 'Lobster Two', cursive; font-weight:normal;}
+h2{ font-size:16px; color:#66a7c5; font-family: 'Pontano Sans', sans-serif; font-weight:normal;}
+P{ line-height:20px; }
+a{text-decoration:none; color:#66a7c5;}
+a:hover{color:#ee3233;}
+
+
+
+.header-warp{
+
+background:#ee3233; padding-top:85px; padding-bottom:40px; overflow:hidden;
+
+}
+.logo h1{
+	
+	float:left; color:#ffffff; font-size:45px; margin-left:30px; margin-top:-30px;
+}
+.logo-img{
+	float:left; margin-left:1px; margin-top:-55px; 
+}
+.menu{ float:right;}
+
+.menu ul li{ list-style:none; float:left; font-size:18px; padding:10px;}
+.menu ul li a{color:#ffffff; text-decoration:none; padding:10px;}
+.menu ul li a:hover{ background:#66a7c5; padding:10px;}
+.menu ul li a.active{ background:#66a7c5; padding:10px;}
+
+
+
+.slide{
+ margin-top: 100px;
+margin-right: -300px;
+         
+float: right;
+
+}
+
+.slide div{
+    margin-bottom:20px;
+}
+
+
+
+ #footer{
+                  
+                   height: 170px;
+                   text-align: center;
+                   margin-top: 200px;
+                   background-color: #243036; 
+                   color:#9b9e9a;
+                   font-size: 12px;
+                
+               }
+               #footer img{
+                    border-radius: 10px;
+                    margin-top: 10px;
+               } 
+
+
+
+.button1{
+	margin-top:0px;
+	margin-left:0px;
+        
+       padding: 40px; overflow:hidden;
+	
+}
+
+p {
+    margin: 50px 0;
+}
+.button {
+    background-color: #bc1815;
+    border: medium none;
+    border-radius: 3px;
+    box-shadow: 0 -3px 1px rgba(0, 0, 0, 0.45) inset, 0 2px 2px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    margin-right: 25px;
+    padding: 8px 14px 10px;
+   
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+a {
+    text-decoration: none;
+}
+.button:active {
+    box-shadow: 0 -3px 1px rgba(255, 255, 255, 1) inset, 0 0 3px rgba(0, 0, 0, 0.9) inset;
+    position: relative;
+    top: 3px;
+}
+.button:active:after {
+    background: none repeat scroll 0 0 #fff;
+    bottom: -1px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.button.blue {
+    background: none repeat scroll 0 0 #22c3eb;
+}
+.button.green {
+    background: none repeat scroll 0 0 #67b600;
+}
+.button.orange {
+    background: none repeat scroll 0 0 #da8a00;
+}
+.button.yellow {
+    background: none repeat scroll 0 0 #b3a400;
+}
+.button.turquoise {
+    background: none repeat scroll 0 0 #00b1af;
+}
+.button:last-of-type {
+    margin: 0;
+}
+.button.gradient {
+    background-image: -moz-linear-gradient(center bottom , rgba(0, 0, 0, 0.3) 1%, rgba(255, 255, 255, 0.2) 100%);
+}
+.button.gradient:hover {
+    background-image: -moz-linear-gradient(center bottom , rgba(0, 0, 0, 0.45) 1%, rgba(255, 255, 255, 0.3) 100%);
+}
+
+
+
+
+
+
+
+form.register {
+    background-color: white;
+    height: 450px;
+    margin: 80px auto 0;
+    margin-bottom:50px;
+    padding: 5px;
+    width: 900px;
+}
+form p{
+    clear: both;
+    color: gray;
+    font-size:15px;
+    margin: 0;
+    padding: 4px;
+}
+form.register fieldset.row1 {
+    border-top: 1px solid #f5f5f5;
+    float: left;
+    padding: 30px;
+    width: 770px;
+}
+form.register fieldset.row1 label {
+    float: left;
+    margin-right: 6px;
+    margin-top: 2px;
+    text-align: right;
+    width: 140px;
+}
+
+form.register legend {
+    color: #abda0f;
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 14px;
+    padding: 2px;
+}
+form.register label {
+    color: #444;
+    float: left;
+    margin-right: 0px;
+    margin-top: 2px;
+    text-align: right;
+    width: 98px;
+}
+
+
+form.register input,select {
+    color: #505050;
+    float: left;
+    margin-right: 5px;
+    width: 140px;
+}
+
+
+form.register input[type="text"] {
+    border: 1px solid #e1e1e1;
+    height: 18px; width:200px; 
+}
+
+form.register input.short {
+    color: #505050;
+    width: 40px;
+}
+
+form.register input[type="password"] {
+    border: 1px solid #e1e1e1;
+    height: 18px;
+}
+
+.logo1 h1{ float:left; color:green; font-size:45px;
+
+margin-top:-70px;
+margin-top:-70px;
+}
+
+.add-button{
+    background-color: #bc1815;
+    border: medium none;
+    border-radius: 3px;
+    box-shadow: 0 -3px 1px rgba(0, 0, 0, 0.45) inset, 0 2px 2px rgba(0, 0, 0, 0.25);
+    color: white;
+    margin-right: 25px;
+    margin-top:30px;
+    padding: 8px 14px 10px;
+   
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.table{
+
+ margin-top:60px; font-weight:solid;
+}
+.logo2 h1{
+	font-size:45px;
+	margin-top:30px; color:green; 
+}
+
+
+
+
+
+html .login-wrap {
+    margin-top: 40px;
+    margin-left: 450px;
+  position: relative;
+  background: #ecf0f1;
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px #333;
+  padding: 15px;
+}
+html .login-wrap h2 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 2em;
+  margin-top: 10px;
+  color: #34495e;
+}
+html .login-wrap .form {
+  padding-top: 20px;
+}
+html .login-wrap .form input[type="text"],
+html .login-wrap .form input[type="password"],
+html .login-wrap .form select,
+html .login-wrap .form button {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 25px;
+  height: 40px;
+  border-radius: 5px;
+  outline: 0;
+  -moz-outline-style: none;
+}
+html .login-wrap .form input[type="text"],
+html .login-wrap .form input[type="password"] {
+  border: 1px solid #bbb;
+  padding: 0 0 0 10px;
+  font-size: 14px;
+}
+html .login-wrap .form input[type="text"]:focus,
+html .login-wrap .form input[type="password"]:focus {
+  border: 1px solid #3498db;
+}
+html .login-wrap .form a {
+  text-align: center;
+  font-size: 10px;
+  color: #3498db;
+}
+html .login-wrap .form a p {
+  padding-bottom: 10px;
+}
+html .login-wrap .form button {
+  background: #e74c3c;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  cursor: pointer;
+  transition: box-shadow .4s ease;
+}
+html .login-wrap .form button:hover {
+  box-shadow: 1px 1px 5px #555;
+}
+html .login-wrap .form button:active {
+  box-shadow: 1px 1px 7px #222;
+}
+html .login-wrap:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+   height: 5px;
+  border-radius: 5px 5px 0 0;
+}
+
+
+
+.col1{
+    
+  border-right: 1px solid #f2f2f2;
+
+    margin-top: 30px;
+    margin-left: 30px;
+    width:600px;
+
+     
+}
+
+.col1 p{
+    
+    color: black;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+     line-height: 20px;
+}
+
+.col1 h1{
+    margin-left: 10px;
+    margin-top: 100px;
+    
+}
+.col1 h2{
+    margin-top: 50px;
+    margin-bottom: -20px;
+}
+
+
+.search{ 
+    
+  margin-top: 0px;
+  margin-right: 30px;
+         
+float: right;
+}
+.search ul li{list-style:none; float:left; margin-right:10px;}
+.text-filed{ width:230px; height:35px; background:#f0eceb; line-height:35px; text-indent:5px; border:none;}
+
+
+table th{
+    
+   text-align:center;
+    background: #b0cc7f;
+    border: 0px;
+}
+
+
+
+table tr,td{
+ background:#d7e1c5;
+ border: 0px;
+ text-align:left;
+}
+
+.right img{
+    margin-top: 40px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+    
+}
+
+.right h1{
+    
+    text-align:center;
+    color:green;
+    font-size: 55px;
+    font-style: bold;
+}
+
+
+
+
+
+
